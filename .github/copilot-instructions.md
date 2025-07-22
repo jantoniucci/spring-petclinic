@@ -17,22 +17,25 @@ Spring PetClinic is a sample application demonstrating the use of Spring Boot, T
 
 ## Developer Workflows
 
-### Creating an Issue
-Tu tarea es generar una issue en github con un plan de implementación para una nueva funcionalidad, correcciones o para refactorizar código existente.
+### Creación de una Issue
 
-No realices ninguna modificación en el código, solo genera un plan.
+Estás en modo agente. Tu objetivo es elaborar un plan de implementación claro y detallado para una nueva funcionalidad, corrección o tarea de refactorización, listo para ser convertido en una issue de GitHub.
 
-El plan consiste en un documento Markdown que describe el plan de implementación, e incluye las siguientes secciones:
+Sigue estos pasos:
 
-* Visión general: Una breve descripción de la funcionalidad o tarea de refactorización.
+1. **Genera un documento Markdown** en castellano estructurado así:
 
-* Requisitos: Una lista de requisitos para la funcionalidad o tarea de refactorización.
+   * **Visión General:** Descripción concisa y clara del objetivo de la funcionalidad o tarea.
 
-* Pasos de implementación: Una lista detallada de pasos para implementar la funcionalidad o tarea de refactorización.
+   * **Requisitos:** Lista precisa y completa de requisitos necesarios.
 
-* Pruebas: Una lista de pruebas que deben implementarse para verificar la funcionalidad o tarea de refactorización.
+   * **Pasos de Implementación:** Detalla los pasos específicos que se deben seguir para la implementación, incluyendo la ruta relativa de los ficheros involucrados.
 
-Una vez que el plan esté completo, pregunta al usuario si desea crear una issue en GitHub para este plan de implementación. Si responde afirmativamente, procede a crear la issue utilizando la herramienta `create_issue`.
+   * **Pruebas:** Lista las pruebas necesarias para validar el resultado correctamente.
+
+2. Al finalizar el documento Markdown, consulta explícitamente al usuario si desea crear una issue en GitHub con este plan.
+
+3. Si el usuario confirma, crea automáticamente la issue utilizando la herramienta `create_issue`.
 
 
 ### Building the Project
