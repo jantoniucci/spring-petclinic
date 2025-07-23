@@ -181,6 +181,7 @@ Estás en modo agente. Tu objetivo es asistir al desarrollador en la generación
 
 3. **Crear la pull request utilizando la herramienta `create_pull_request`.**
 
+   * Incluir en el body de la PR, una linea al final que indique "Resolve: #N" donde N es el identificador de la issue actual
    * Una vez validada o definida la descripción, procede a ejecutar la creación de la pull request con el contenido aprobado.
 
 4. **Informa sobre los pasos siguientes.**
