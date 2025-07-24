@@ -100,18 +100,18 @@ public class PetValidatorTests {
 			assertTrue(errors.hasFieldErrors("type"));
 		}
 
-		@Test
-		void testValidateWithInvalidBirthDate() {
-			petType.setName(petTypeName);
-			pet.setName(petName);
-			pet.setType(petType);
-			pet.setBirthDate(null);
+	}
 
-			petValidator.validate(pet, errors);
+	@Test
+	void testValidateWithOptionalBirthDate() {
+		petType.setName(petTypeName);
+		pet.setName(petName);
+		pet.setType(petType);
+		pet.setBirthDate(null); // birthDate is now optional
 
-			assertTrue(errors.hasFieldErrors("birthDate"));
-		}
+		petValidator.validate(pet, errors);
 
+		assertFalse(errors.hasErrors());
 	}
 
 }
